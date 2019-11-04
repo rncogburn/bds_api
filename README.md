@@ -24,7 +24,7 @@ content = api.get(variables=vars, filters=filt)
 
 ```
 
-`variables` must be passed as a list, and `filters` must be passed as a dictionary. That is to say, `variables` are passed to give columns to your data, `filters` are passed to filter the returned data columns. Full documentation on possible parameters can be found [here]('https://api.census.gov/data/timeseries/bds/firms/variables.html').
+`variables` must be passed as a list, and `filters` must be passed as a dictionary. That is to say, `variables` are passed to give columns to your data, `filters` are passed to filter the returned data columns. Full documentation on possible parameters can be found [here](https://api.census.gov/data/timeseries/bds/firms/variables.html).
 
 API Keys can be created [here](https://api.census.gov/data/key_signup.html).
 
